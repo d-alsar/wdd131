@@ -81,7 +81,6 @@ main {
     margin: 0 auto; 
     padding: 0 10px;  
   }
-  
 
 
 .about-title {
@@ -95,7 +94,6 @@ main {
   grid-row-end: 3;
   
 }
-
 
 .profile-pic {
   height: 150px;
@@ -146,7 +144,6 @@ main {
 p {
   align-content: first baseline;
 }
-
 
 
 .card-aside{
