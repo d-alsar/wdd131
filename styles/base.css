@@ -1,0 +1,156 @@
+body {
+  font-weight: 400;
+  display: grid;
+  padding-right: 0;
+}
+
+header {
+    background: #e5e5e5;
+    padding: 2rem;
+    grid-column: 1 / 4;
+    text-align: center;
+    display: grid;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+  }
+  /**birrar left sidebar**/
+.card {
+    display: grid;
+    background: #14213d;
+    grid-template-columns: 3fr 1fr 1fr;
+    gap: 10px;
+    background-color: #e5e5e5;
+    padding: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  
+  footer {
+    background: #14213d;
+    padding: 10px;
+    text-align: center;
+    grid-column: 1 / 4;
+    color: aliceblue;
+ 
+    }
+  
+/**New layout menu**/
+
+.navbar ul{
+  list-style-type: none;
+  background-color:#14213d;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -2rem;
+  margin-left: -2rem;
+  margin-bottom: -2rem;
+}
+
+.navbar a{
+  color: aliceblue;
+  text-decoration: none;
+  padding: 15px;
+  display: flex;
+  text-align: center;
+
+}
+
+.navbar a:hover{
+  background-color: #fca311;
+  color: black;
+}
+
+.navbar li{
+float: right;
+display: flex;
+margin: auto;
+}
+
+.container {
+  display: flex;
+  gap: 5px;
+}
+  
+main {
+    display: flex;
+    grid-template-columns: 1fr 300px; 
+    gap: 5px;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 10px;  
+  }
+  
+
+
+.about-title {
+  font-weight: bold;
+}
+
+.about-content {
+  gap: 20px;
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  
+}
+
+
+.profile-pic {
+  height: 150px;
+  border-radius: 50%;
+  object-fit: fill;
+  margin-top: -15rem;
+ /**margin-left: 70rem; **/
+ margin-right: -10rem;
+}
+
+.flag-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 30px; 
+  grid-column-start: 1;
+  
+}
+
+.flag-description {
+  grid-row-start: 4;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  gap: 20px;
+  
+}
+.photo {
+  gap: 20px;
+  float: right;
+}
+
+.about-flag {
+  grid-column-start: 1;
+  grid-row-start: 4;
+  grid-row-end: 6;
+margin-left: 15rem;
+
+}
+
+.flag-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  grid-row-start: 4;
+  grid-row-end: 6;
+
+}
+
+p {
+  align-content: first baseline;
+}
+
+.tools {
+  margin-top: 10rem;
+  margin-left: -8rem;
+
+}
