@@ -9,7 +9,7 @@ list.append(li);
 
 button.addEventListener('click', function() {
     if (input.value.trim() !== '') {
-        // Create a new li element for the chapter
+        // this a new li element for the chapter
         const li = document.createElement('li');
         li.textContent = input.value.trim(); // Set the text of the new list item to the input value
     
