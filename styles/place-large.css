@@ -1,0 +1,85 @@
+@media screen and (min-width: 900px) {
+    .body {
+        max-width: auto;
+    }
+
+    .container {
+        margin: auto;
+        text-align: center;
+        position: relative;
+        display: flex;
+        text-align: center;
+        max-width: 1555px;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+        mask-image: linear-gradient(#343a40ff 90%,
+                transparent);
+        pointer-events: none;
+    }
+
+    .hero-section {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .box-title {
+        padding: 10px 20px;
+        background-color: var(--gunmetal);
+        text-align: left;
+        color: var(--antiflash-white);
+        font-size: 1.5rem;
+        margin-top: 10px;
+
+    }
+
+    table {
+        font-size: 1rem;
+        padding-top: 15px;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+    }
+
+    .data,
+    .weather {
+        padding: 0 0 10px 0;
+        background-color: rgba(182, 201, 223, 0.85);
+        }
+
+    .data {
+        left: 2%;
+        max-width: 190px;
+        height: auto;
+        position: absolute;
+        float: left;
+        bottom: 1rem;
+        }
+
+    .weather {
+        bottom: 5%;
+        right: 2%;
+        width: auto;
+        height: auto;
+        position: absolute;
+        float: right;
+    }
+
+    .weather-icon {
+        display: inline;
+    }
+
+.weather-icon::after {
+        content: "";
+    }
+
+    .weather img {
+        display: none;
+    }
+
+
+}
