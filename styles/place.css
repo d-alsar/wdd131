@@ -46,7 +46,6 @@
 
 * {
     margin: auto;
-    padding: auto;
 }
 
 body {
@@ -112,8 +111,6 @@ header {
 .hero img {
     width: 100%;
     height: auto;
-    mask-image: linear-gradient(#67171Fff 95%,
-    transparent);
 }
 
 .data,
