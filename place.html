@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place page</title>
+    <meta name="author" content="Douglas Reyes">
+    <meta name="description" content="This is about a country or place where I live, have visited or wish to visit">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/places.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>Punta Cana - Dominican Republic
+        </h1>
+    </header>
+    <main class="container">
+        <div class="hero-section">
+            <picture class="hero">
+                <source media="(min-width: 1000px)" srcset="images/hero-large.webp">
+                <source media="(min-width: 550px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-small.webp" alt="puntacana" width="400" height="200">
+            </picture>
+        </div>
+        <div class="data">
+            <h2 class="box-title">Data</h2>
+            <table>
+                <tr>
+                    <td class="label"><b>Area:</b></td>
+                    <td>48,670 km²</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Population:</b></td>
+                    <td>11.33 million</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Capital:</b></td>
+                    <td>Santo Domingo</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Languages:</b></td>
+                    <td>Spanish</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Currency:</b></td>
+                    <td>Dominican peso</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Time Zone:</b></td>
+                    <td>Atlantic Standard Time (UTC-4)</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Dialing Code:</b></td>
+                    <td>+1</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Internet TLD:</b></td>
+                    <td>.do</td>
+                </tr>
+            </table>
+        </div>
+        <div class="weather">
+            <h2 class="box-title">Weather <span class="weather-icon">&#9925;</span></h2>
+            <img src="images/weather-icon.svg" alt="light weather">
+            <table>
+                <tr>
+                    <td class="label"><b>Temperature:</b></td>
+                    <td>30 °C</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Conditions:</b></td>
+                    <td>Cloudy</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Wind:</b></td>
+                    <td>8 km/h</td>
+                </tr>
+                <tr>
+                    <td class="label"><b>Wind Chill:</b></td>
+                    <td>10 °C</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>
+            <span id="currentYear"></span> 🌎Douglas R. Santos 🌎 El Salvador
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
