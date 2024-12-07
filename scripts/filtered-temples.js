@@ -123,7 +123,7 @@ const temples = [
 createTempleCard(temples);
 const pageHeading = document.querySelector('#pageHeading'); 
 document.querySelector('#home').addEventListener('click', () => {
-	pageHeading.textContent = 'Home';
+	pageHeading.textContent = 'Temples';
 	createTempleCard(temples); 
   });
 

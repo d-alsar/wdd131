@@ -9,7 +9,7 @@ footer {
 	margin: 10px;
 }
 
-h2 {
+h1 {
 	text-align: center;
 	padding: 1rem;
 }
@@ -48,8 +48,7 @@ nav {
 	display: none;
 }
 
-.navigation a,
-h1 {
+.navigation a {
 	display: block;
 	padding: 0.75rem;
 	text-align: left;
