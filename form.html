@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is a form to submit a product review">
+    <meta name="author" content="Douglas R. Santos">
+    <title>Product Review Form by Douglas R. Santos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+    <!-- STYLE SHEETS -->
+    <link href="styles/form-small.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="styles/form-normal.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="styles/form-medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="styles/form-large.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <!-- HEADER HERE -->
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals</h1>
+    </header>
+
+
+    <!-- NAVIGATION HERE -->
+    <nav>
+        <a id="menu" href="#"></a>
+        <ul class="navigation">
+            <li><a href="form.html" id="home">Home</a></li>
+            <li><a href="review.html" id="reviews">My reviews</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- CONTENT HERE -->
+    <main>  
+        <h1 id="pageHeading">Product Review</h1>
+        <section id="formContainer">
+            <!-- Main form content will be inserted here -->
+        <form method="get" action="review.html" class="wf1">
+            <fieldset>
+                <label>Product Name*
+                    <select name="subject" id="product" required>
+                        <option value="" disabled selected>Select a Product &#9662; </option>
+                    </select>
+                </label>
+                <label>Overall Rating*</label>
+<div class="stars">
+	<input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+	<input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+	<input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+	<input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+	<input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+</div>
+                <label>Date of installation*<input type="date" name="CompleteDate" required></label>
+                <div>Which features did you find useful in the product?</div>
+                <label><input type="checkbox" name="durability" value="yes">Durability</label>
+                <label><input type="checkbox" name="ease" value="yes">Ease of use</label>
+                <label><input type="checkbox" name="performance" value="yes">Performance</label>
+                <label><input type="checkbox" name="design" value="yes">Design</label>
+
+                <label>Written review<textarea id="textarea" name="review"></textarea></label>
+                <label>Your name<input type="text" name="lname"></label>
+                <input type="submit" value="Post review">
+            </fieldset>  
+        </form>
+        <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+        </section>
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+        <p>
+            <span id="currentYear"></span> 🌎Douglas R. Santos 🌎 El Salvador
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/form.js"></script>
+</body>
+
+</html>
