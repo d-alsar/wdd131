@@ -1,18 +1,21 @@
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
-body { 
+body {
   font-family: "Libre Baskerville", serif;
   margin: 0;
 }
 
-.header, footer {
+.header,
+footer {
   overflow: hidden;
   background-color: #181818;
   padding: 20px 10px;
   font-family: 'Cinzel', "serif";
 }
 
-footer{
+footer {
   color: white;
   text-align: center;
 }
@@ -23,12 +26,12 @@ footer{
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px; 
+  font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
 }
 
-.header a.logo{
+.header a.logo {
   font-size: 25px;
   font-weight: bold;
 }
@@ -59,9 +62,10 @@ footer{
 }
 
 .legends p {
-max-width: 1500px;
-  
+  max-width: 1500px;
+
 }
+
 /** styling columns **/
 
 .content {
@@ -73,42 +77,61 @@ max-width: 1500px;
 }
 
 
-.container{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-	grid-gap: 25px;
-	place-items: center;
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-gap: 25px;
+  place-items: center;
 }
 
-section{
+section {
 
-	max-width: 960px;
-	text-align: center;
-	border-radius: 10px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-	overflow: hidden;
+  max-width: 960px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
   margin: 10px 5px;
 
 }
 
-section p{
+section p {
   text-align: left;
 }
 
-section .about{
-  align-content: center;
-}
 
-
-h1{
+h1 {
   text-align: center;
 }
 
-figcaption{
+figcaption {
   color: #381820;
 }
 
-button{
-  
+button {
+  border-color: #381820;
 
+}
+
+
+.center-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* Centers text within the section */
+  height: 50vh;
+  /* Adjust as needed */
+  padding: 20px;
+  /* Optional for spacing */
+  align-content: center;
+  margin: 10px 10px;
+
+  ;
+}
+
+.about {
+  max-width: 800px;
+  /* Controls the width of the content */
+  align-content: center;
 }

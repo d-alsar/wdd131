@@ -1,11 +1,31 @@
-@media screen and (max-width: 600px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    
-    .header-right {
-      float: none;
-    }
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
   }
+
+  .header-right {
+    float: none;
+  }
+
+  .center-section {
+    display: block;
+    padding: 20px;
+    /* Optional for spacing */
+    margin: 10px 100px;
+    width: 400px;
+    height: 750px;
+
+    ;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 25px;
+    place-items: center;
+  }
+
+
+}
