@@ -1,8 +1,8 @@
 * {box-sizing: border-box;}
 
 body { 
+  font-family: "Libre Baskerville", serif;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header, footer {
@@ -73,19 +73,42 @@ max-width: 1500px;
 }
 
 
-.container {
+.container{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
 	grid-gap: 25px;
 	place-items: center;
 }
 
-section {
+section{
 
 	max-width: 960px;
 	text-align: center;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	overflow: hidden;
+  margin: 10px 5px;
+
+}
+
+section p{
+  text-align: left;
+}
+
+section .about{
+  align-content: center;
+}
+
+
+h1{
+  text-align: center;
+}
+
+figcaption{
+  color: #381820;
+}
+
+button{
+  
 
 }

@@ -69,7 +69,7 @@ for (i = 0; i < coll.length; i++) {
     if (content.style.maxHeight) {
       // Collapse content
       content.style.maxHeight = null;
-      this.textContent = "Show More"; // Change button text to "Show More"
+      this.textContent = "Read More"; // Change button text to "Show More"
     } else {
       // Expand content
       content.style.maxHeight = content.scrollHeight + "px";
